@@ -38,7 +38,7 @@ class DetailView(generic.DetailView):
 class ResultsView(generic.DetailView):
     model = Question
     template_name = 'polls/result.html'
-    
+
 #def results(request, question_id):
 #    question = get_object_or_404(Question, pk=question_id)
 #    return render(request,'polls/result.html', {'question': question})
